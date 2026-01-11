@@ -9,6 +9,7 @@
   <remove-project name="LineageOS/android_system_bt" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
   <remove-project name="platform/external/sonivox" />
+  <remove-project name="platform/system/libfmq" />
 <!-- Track project forks -->
   <project path="build/make" name="LineageOS-R-ASB/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -25,5 +26,6 @@
   <project path="manifest" name="LineageOS-R-ASB/manifest" />
   <project path="packages/apps/Settings" name="LineageOS-R-ASB/packages_apps_Settings" groups="pdk-fs" />
   <project path="system/bt" name="LineageOS-R-ASB/system_bt" groups="pdk" />
+  <project path="system/libfmq" name="LineageOS-R-ASB/system_libfmq" groups="pdk" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="LineageOS-R-ASB/vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom"/>
 </manifest>
