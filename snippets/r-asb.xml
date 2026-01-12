@@ -11,6 +11,7 @@
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
   <remove-project name="LineageOS/android_libcore" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+  <remove-project name="LineageOS/android_packages_apps_CertInstaller" />
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
   <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
   <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
@@ -18,6 +19,7 @@
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <remove-project name="LineageOS/android_packages_services_Mms" />
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
   <remove-project name="LineageOS/android_system_bt" />
@@ -26,8 +28,10 @@
   <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
   <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/external/giflib" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sonivox" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/packages/modules/CellBroadcastService" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/system/libfmq" />
@@ -44,8 +48,10 @@
   <project path="external/dng_sdk" name="LineageOS-R-ASB/external_dng_sdk" groups="pdk" />
   <project path="external/freetype" name="LineageOS-R-ASB/external_freetype" groups="pdk" />
   <project path="external/giflib" name="LineageOS-R-ASB/external_giflib" groups="pdk,qcom_msm8x26" />
+  <project path="external/libjpeg-turbo" name="LineageOS-R-ASB/external_libjpeg-turbo" groups="pdk" />
   <project path="external/skia" name="LineageOS-R-ASB/external_skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" name="LineageOS-R-ASB/external_sonivox" groups="pdk" />
+  <project path="external/sqlite" name="LineageOS-R-ASB/external_sqlite" groups="pdk" />
   <project path="frameworks/av" name="LineageOS-R-ASB/frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="LineageOS-R-ASB/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="LineageOS-R-ASB/frameworks_native" groups="pdk" />
@@ -54,6 +60,7 @@
   <project path="libcore" name="LineageOS-R-ASB/libcore" groups="pdk" />
   <project path="manifest" name="LineageOS-R-ASB/manifest" />
   <project path="packages/apps/Bluetooth" name="LineageOS-R-ASB/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/CertInstaller" name="LineageOS-R-ASB/packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="LineageOS-R-ASB/packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/DocumentsUI" name="LineageOS-R-ASB/packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="LineageOS-R-ASB/packages_apps_ManagedProvisioning" groups="pdk-fs" />
@@ -62,6 +69,7 @@
   <project path="packages/modules/CellBroadcastService" name="LineageOS-R-ASB/packages_modules_CellBroadcastService" groups="pdk" />
   <project path="packages/providers/DownloadProvider" name="LineageOS-R-ASB/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="LineageOS-R-ASB/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Mms" name="LineageOS-R-ASB/packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="LineageOS-R-ASB/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="LineageOS-R-ASB/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/abi-dumps/vndk" name="LineageOS-R-ASB/prebuilts_abi-dumps_vndk" groups="pdk-fs" />
