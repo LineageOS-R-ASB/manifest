@@ -8,8 +8,10 @@
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
   <remove-project name="LineageOS/android_libcore" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+  <remove-project name="LineageOS/android_packages_apps_Contacts" />
   <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
   <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
@@ -26,6 +28,7 @@
   <remove-project name="platform/external/giflib" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sonivox" />
+  <remove-project name="platform/packages/modules/CellBroadcastService" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/system/libfmq" />
 <!-- Track project forks -->
@@ -47,13 +50,16 @@
   <project path="frameworks/base" name="LineageOS-R-ASB/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="LineageOS-R-ASB/frameworks_native" groups="pdk" />
   <project path="frameworks/opt/net/wifi" name="LineageOS-R-ASB/frameworks_opt_net_wifi" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="LineageOS-R-ASB/frameworks_opt_telephony" groups="pdk" />
   <project path="libcore" name="LineageOS-R-ASB/libcore" groups="pdk" />
   <project path="manifest" name="LineageOS-R-ASB/manifest" />
   <project path="packages/apps/Bluetooth" name="LineageOS-R-ASB/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Contacts" name="LineageOS-R-ASB/packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/DocumentsUI" name="LineageOS-R-ASB/packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="LineageOS-R-ASB/packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/PermissionController" name="LineageOS-R-ASB/packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" name="LineageOS-R-ASB/packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/modules/CellBroadcastService" name="LineageOS-R-ASB/packages_modules_CellBroadcastService" groups="pdk" />
   <project path="packages/providers/DownloadProvider" name="LineageOS-R-ASB/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="LineageOS-R-ASB/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="LineageOS-R-ASB/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
