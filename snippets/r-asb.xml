@@ -3,6 +3,7 @@
 <!-- Untrack projects forked by us -->
   <remove-project name="LineageOS/android" />
   <remove-project name="LineageOS/android_build" />
+  <remove-project name="LineageOS/android_external_freetype" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_native" />
@@ -37,6 +38,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="external/dng_sdk" name="LineageOS-R-ASB/external_dng_sdk" groups="pdk" />
+  <project path="external/freetype" name="LineageOS-R-ASB/external_freetype" groups="pdk" />
   <project path="external/giflib" name="LineageOS-R-ASB/external_giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="LineageOS-R-ASB/external_skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" name="LineageOS-R-ASB/external_sonivox" groups="pdk" />
