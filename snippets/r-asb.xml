@@ -14,6 +14,7 @@
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
   <remove-project name="LineageOS/android_system_bt" />
+  <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
   <remove-project name="platform/external/giflib" />
@@ -47,6 +48,7 @@
   <project path="packages/services/Telephony" name="LineageOS-R-ASB/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/abi-dumps/vndk" name="LineageOS-R-ASB/prebuilts_abi-dumps_vndk" groups="pdk-fs" />
   <project path="system/bt" name="LineageOS-R-ASB/system_bt" groups="pdk" />
+  <project path="system/core" name="LineageOS-R-ASB/system_core" groups="pdk" />
   <project path="system/libfmq" name="LineageOS-R-ASB/system_libfmq" groups="pdk" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="LineageOS-R-ASB/vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="LineageOS-R-ASB/vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom"/>
