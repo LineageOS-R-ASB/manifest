@@ -14,6 +14,7 @@
   <remove-project name="LineageOS/android_packages_apps_CertInstaller" />
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
   <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
@@ -63,6 +64,7 @@
   <project path="packages/apps/CertInstaller" name="LineageOS-R-ASB/packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="LineageOS-R-ASB/packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/DocumentsUI" name="LineageOS-R-ASB/packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/LineageParts" name="LineageOS-R-ASB/packages_apps_LineageParts" />
   <project path="packages/apps/ManagedProvisioning" name="LineageOS-R-ASB/packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/PermissionController" name="LineageOS-R-ASB/packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" name="LineageOS-R-ASB/packages_apps_Settings" groups="pdk-fs" />
