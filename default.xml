@@ -776,6 +776,7 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/r-asb.xml" />
+  <include name="snippets/microg.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
